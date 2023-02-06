@@ -4,7 +4,7 @@ N, T = [], []
 
 for line in open("results.txt"):
     n, t = line.split()
-    n = int(n) * 8 # 8 byter per integer
+    n = int(n) * 8 # 8 bytes per integer
     t = float(t)
     N.append(n)
     T.append(t)
