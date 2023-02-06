@@ -23,7 +23,6 @@ void benchmark(int64_t n, ostream& out){
         access_pattern[i] = rand()%n;
     }
 
-    int64_t x = 0;
     int64_t t0 = current_time_micros();
     int64_t sum = 0;
     for(int64_t i = 0; i < n_accesses; i++){
